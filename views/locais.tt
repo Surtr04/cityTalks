@@ -1,0 +1,62 @@
+<div class="row-fluid">
+
+    <div class="span6">
+        <img src="/images/ytravel.png" width="140" alt="YTavel">
+    </div>
+
+    <div class="span6">
+        <div class="pull-right">
+            <a href=[% uri_base %]/> <h1>HOMEPAGE</h1> </a>
+        </div>
+    </div>
+
+</div>
+
+
+
+<center>
+
+    <h2>ONDE PODE ENCONTRAR UMA PLACA CITY TALKS:</h2>
+
+</center>
+
+
+<center>
+    <a href=[% uri_base %]/>    <h4>Aquamuseu do Rio Minho</h4>             </a>
+    <a href=[% uri_base %]/>    <h4>Aro Arqueológico de Lovelhe</h4>        </a>
+    <a href=[% uri_base %]/>    <h4>Baluarte de Santa Cruz</h4>             </a>
+    <a href=[% uri_base %]/>    <h4>Capela de Nossa Senhora da Ajuda</h4>   </a>
+    <a href=[% uri_base %]/>    <h4>Capela de S. Roque</h4>                 </a>
+    <a href=[% uri_base %]/>    <h4>Capela de S. Sebastião</h4>             </a>
+    <a href=[% uri_base %]/>    <h4>Casa da Câmara</h4>                     </a>
+    <a href=[% uri_base %]/>    <h4>Castelo</h4>                            </a>
+    <a href=[% uri_base %]/>    <h4>Fonte da Vila</h4>                      </a>
+    <a href=[% uri_base %]/>    <h4>Forte de Lovelhe</h4>                   </a>
+    <a href=[% uri_base %]/>    <h4>Fórum Cultural</h4>                     </a>
+    <a href=[% uri_base %]/>    <h4>Igreja da Misericórdia</h4>             </a>
+    <a href=[% uri_base %]/>    <h4>Igreja de S. Cipriano Memória</h4>      </a>
+    <a href=[% uri_base %]/>    <h4>Pelourinho</h4>                         </a>
+    <a href=[% uri_base %]/>    <h4>Porta da Traição</h4>                   </a>
+    <a href=[% uri_base %]/>    <h4>Solar dos Castros</h4>                  </a>
+    <a href=[% uri_base %]/>    <h4>Torre de Menagem</h4>                   </a>
+
+</center>
+
+
+
+<div class="row-fluid">
+
+    <div class="span6">
+        <img src="/images/cerveira.png" width="100" alt="VNC">
+    </div>
+
+    <div class="span6">
+        <div class="pull-right">
+            <img src="/images/podcast.png" width="140" alt="Podcast">
+        </div>
+    </div>
+
+</div>
+
+
+
