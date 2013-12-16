@@ -1,48 +1,59 @@
 <div class="row-fluid">
 
-    <div class="span12">
-        <img src="/images/ytravel.png" width="140" alt="YTravel">
+    <div class="pull-right">
+        <img src="/images/pt_en.png" alt="pt_en" width="60">
     </div>
 
 </div>
 
-<div class="row-fluid">
-    <div class="span12">
-        <center>
-            <h1>CITY TALKS CERVEIRA</h1>
-        </center>
+<div class="control-group"></div>
 
-    </div>
+<div class="row-fluid">
+
+    <center>
+        <div class="span12">
+            <img src="/images/cervo.png" width="250" alt="YTravel">
+        </div>
+    </center>
+
 </div>
 
+
+&nbsp;&nbsp;
+&nbsp;&nbsp;
+
+
 <center>
-    <h4>CITY TALKS CERVEIRA é UMA NOVA MODALIDADE DE DESCOBERTA DA VILA. EM CADA PONTO DE INTERESSE,HÁ UMA PLACA DE IDENTIFICAãO COM UM QR CODE QUE QUANDO FOTOGRAFADO COM A APLICACãO APROPRIADA PERMITE ACEDER A INFORMAçãO ADICIONAL SOBRE AQUELE LOCAL </h4>
+    <h4><p align="left">CITY TALKS CERVEIRA é UMA NOVA MODALIDADE DE DESCOBERTA DA VILA. EM CADA PONTO DE INTERESSE,HÁ UMA PLACA DE IDENTIFICAçãO COM UM QR CODE QUE QUANDO FOTOGRAFADO COM A APLICACãO APROPRIADA PERMITE ACEDER A INFORMAçãO ADICIONAL SOBRE AQUELE LOCAL </p> </h4>
 
 </center>
 
 <center>
-    <h4>Cerveira fala a quem a visita. City Talks.</h4>
+    <h5>Cerveira fala a quem a visita. City Talks.</h5>
 </center>
 
 
 <center>
-<a href=[% uri_base %]locais> <h1>Lista de Locais</h1></a>
+    <a href=[% uri_base %]locais>
+        <div class="row-fluid">
+            <img src="/images/locais.png" alt="forward" width="200">
+        </div>
+    </div>
+</a>
 </center>
 
 
-
-<div class="row-fluid">
+<div class="row-fluid" style="margin:auto; display:block; padding:0; position:absolute; right:2px; bottom:0">
 
     <div class="span6">
-        <img src="/images/cerveira.png" width="100" alt="VNC">
+        <div class="pull-left">
+            <img src="/images/cerveira.png" width="60" alt="VNC">
+        </div>
     </div>
 
     <div class="span6">
         <div class="pull-right">
-            <img src="/images/podcast.png" width="140" alt="YTravel">
+              <img src="/images/ytravel.png" width="80" alt="YTravel">
         </div>
     </div>
 </div>
-
-
-hellp
