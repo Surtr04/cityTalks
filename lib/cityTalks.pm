@@ -15,7 +15,13 @@ get '/locais' => sub {
     template 'locais';
 };
 
+get '/locais/:place' => sub {
 
+    template 'local', {
+        place => param('place')
+    };
+
+};
 
 
 

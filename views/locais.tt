@@ -1,62 +1,252 @@
-<div class="row-fluid">
-
-    <div class="span6">
-        <img src="/images/ytravel.png" width="140" alt="YTavel">
-    </div>
-
-    <div class="span6">
-        <div class="pull-right">
-            <a href=[% uri_base %]/> <h1>HOMEPAGE</h1> </a>
-        </div>
-    </div>
-
-</div>
-
-
-
 <center>
 
-    <h2>ONDE PODE ENCONTRAR UMA PLACA CITY TALKS:</h2>
+    <h3 style="color:#00A99D">onde pode encontrar uma placa city talks:</h3>
 
 </center>
 
 
 <center>
-    <a href=[% uri_base %]/>    <h4>Aquamuseu do Rio Minho</h4>             </a>
-    <a href=[% uri_base %]/>    <h4>Aro Arqueológico de Lovelhe</h4>        </a>
-    <a href=[% uri_base %]/>    <h4>Baluarte de Santa Cruz</h4>             </a>
-    <a href=[% uri_base %]/>    <h4>Capela de Nossa Senhora da Ajuda</h4>   </a>
-    <a href=[% uri_base %]/>    <h4>Capela de S. Roque</h4>                 </a>
-    <a href=[% uri_base %]/>    <h4>Capela de S. Sebastião</h4>             </a>
-    <a href=[% uri_base %]/>    <h4>Casa da Câmara</h4>                     </a>
-    <a href=[% uri_base %]/>    <h4>Castelo</h4>                            </a>
-    <a href=[% uri_base %]/>    <h4>Fonte da Vila</h4>                      </a>
-    <a href=[% uri_base %]/>    <h4>Forte de Lovelhe</h4>                   </a>
-    <a href=[% uri_base %]/>    <h4>Fórum Cultural</h4>                     </a>
-    <a href=[% uri_base %]/>    <h4>Igreja da Misericórdia</h4>             </a>
-    <a href=[% uri_base %]/>    <h4>Igreja de S. Cipriano Memória</h4>      </a>
-    <a href=[% uri_base %]/>    <h4>Pelourinho</h4>                         </a>
-    <a href=[% uri_base %]/>    <h4>Porta da Traição</h4>                   </a>
-    <a href=[% uri_base %]/>    <h4>Solar dos Castros</h4>                  </a>
-    <a href=[% uri_base %]/>    <h4>Torre de Menagem</h4>                   </a>
-
-</center>
-
-
-
-<div class="row-fluid">
-
-    <div class="span6">
-        <img src="/images/cerveira.png" width="100" alt="VNC">
-    </div>
-
-    <div class="span6">
-        <div class="pull-right">
-            <img src="/images/podcast.png" width="140" alt="Podcast">
+    <a href=[% uri_base %]/locais/aquamuseu>
+        <div class="row-fluid">
+            <div class="span6">
+            <div class="pull-right">
+                <h4>Aquamuseu do Rio Minho</h4>
+                </div>
+            </div>
+            <div class="span6">
+                <img class="pull-left" src="/images/forward.png" width=15 style="margin-top:8px">
+            </div>
         </div>
-    </div>
+    </a>
+    <a href=[% uri_base %]/locais/aro>
+        <div class="row-fluid">
+            <div class="span6">
+            <div class="pull-right">
+                <h4>Aro Arqueológico de Lovelhe</h4>
+                </div>
+            </div>
+            <div class="span6">
+                <img class="pull-left" src="/images/forward.png" width=15 style="margin-top:8px">
+            </div>
+        </div>
+    </a>
+    <a href=[% uri_base %]/locais/baluarte>
+        <div class="row-fluid">
+            <div class="span6">
+            <div class="pull-right">
+                <h4>Baluarte de Santa Cruz</h4>
+                </div>
+            </div>
+            <div class="span6">
+                <img class="pull-left" src="/images/forward.png" width=15 style="margin-top:8px">
+            </div>
+        </div>
+    </a>
+    <a href=[% uri_base %]/locais/capela_ajuda>
+        <div class="row-fluid">
+            <div class="span6">
+            <div class="pull-right">
+                <h4>Capela de Nossa Senhora da Ajuda</h4>
+                </div>
+            </div>
+            <div class="span6">
+                <img class="pull-left" src="/images/forward.png" width=15 style="margin-top:8px">
+            </div>
+        </div>
+    </a>
+    <a href=[% uri_base %]/locais/capela_s_roque>
+        <div class="row-fluid">
+            <div class="span6">
+            <div class="pull-right">
+                <h4>Capela de S. Roque</h4>
+                </div>
+            </div>
+            <div class="span6">
+                <img class="pull-left" src="/images/forward.png" width=15 style="margin-top:8px">
+            </div>
+        </div>
+    </a>
+    <a href=[% uri_base %]/locais/capela_s_sebastiao>
+        <div class="row-fluid">
+            <div class="span6">
+            <div class="pull-right">
+                <h4>Capela de S. Sebastião</h4>
+                </div>
+            </div>
+            <div class="span6">
+                <img class="pull-left" src="/images/forward.png" width=15 style="margin-top:8px">
+            </div>
+        </div>
+    </a>
+    <a href=[% uri_base %]/locais/camara>
+        <div class="row-fluid">
+            <div class="span6">
+            <div class="pull-right">
+                <h4>Casa da Câmara</h4>
+                </div>
+            </div>
+            <div class="span6">
+                <img class="pull-left" src="/images/forward.png" width=15 style="margin-top:8px">
+            </div>
+        </div>
+    </a>
+    <a href=[% uri_base %]/locais/castelo>
+        <div class="row-fluid">
+            <div class="span6">
+            <div class="pull-right">
+                <h4>Castelo</h4>
+                </div>
+            </div>
+            <div class="span6">
+                <img class="pull-left" src="/images/forward.png" width=15 style="margin-top:8px">
+            </div>
+        </div>
+    </a>
+    <a href=[% uri_base %]/locais/fonte>
+        <div class="row-fluid">
+            <div class="span6">
+            <div class="pull-right">
+                <h4>Fonte da Vila</h4>
+                </div>
+            </div>
+                <div class="span6">
+                    <img class="pull-left" src="/images/forward.png" width=15 style="margin-top:8px">
+                </div>
+            </div>
+        </a>
+        <a href=[% uri_base %]/locais/forte>
+            <div class="row-fluid">
+                <div class="span6">
+                <div class="pull-right">
+                    <h4>Forte de Lovelhe</h4>
+                    </div>
+                </div>
+                <div class="span6">
+                    <img class="pull-left" src="/images/forward.png" width=15 style="margin-top:8px">
+                </div>
+            </div>
+        </a>
+        <a href=[% uri_base %]/locais/forum>
+            <div class="row-fluid">
+                <div class="span6">
+                <div class="pull-right">
+                    <h4>Fórum Cultural</h4>
+                    </div>
+                </div>
+                <div class="span6">
+                    <img class="pull-left" src="/images/forward.png" width=15 style="margin-top:8px">
+                </div>
+            </div>
+        </a>
+        <a href=[% uri_base %]/locais/misericordia>
+            <div class="row-fluid">
+                <div class="span6">
+                <div class="pull-right">
+                    <h4>Igreja da Misericórdia</h4>
+                    </div>
+                </div>
+                <div class="span6">
+                    <img class="pull-left" src="/images/forward.png" width=15 style="margin-top:8px">
+                </div>
+            </div>
+        </a>
+        <a href=[% uri_base %]/locais/igreja_s_cipriano>
+            <div class="row-fluid">
+                <div class="span6">
+                <div class="pull-right">
+                    <h4>Igreja de S. Cipriano </h4>
+                    </div>
+                </div>
+                <div class="span6">
+                    <img class="pull-left" src="/images/forward.png" width=15 style="margin-top:8px">
+                </div>
+            </div>
+        </a>
+        <a href=[% uri_base %]/locais/memoria>
+            <div class="row-fluid">
+                <div class="span6">
+                <div class="pull-right">
+                    <h4>Memória</h4>
+                    </div>
+                </div>
+                <div class="span6">
+                    <img class="pull-left" src="/images/forward.png" width=15 style="margin-top:8px">
+                </div>
+            </div>
+        </a>
+        <a href=[% uri_base %]/locais/pelourinho>
+            <div class="row-fluid">
+                <div class="span6">
+                <div class="pull-right">
+                    <h4>Pelourinho</h4>
+                    </div>
+                </div>
+                <div class="span6">
+                    <img class="pull-left" src="/images/forward.png" width=15 style="margin-top:8px">
+                </div>
+            </div>
+        </a>
+        <a href=[% uri_base %]/locais/porta_traicao>
+            <div class="row-fluid">
+                <div class="span6">
+                <div class="pull-right">
+                    <h4>Porta da Traição</h4>
+                    </div>
+                </div>
+                <div class="span6">
+                    <img class="pull-left" src="/images/forward.png" width=15 style="margin-top:8px">
+                </div>
+            </div>
+        </a>
+        <a href=[% uri_base %]/locais/solar>
+            <div class="row-fluid">
+                <div class="span6">
+                <div class="pull-right">
+                    <h4>Solar dos Castros</h4>
+                    </div>
+                </div>
+                <div class="span6">
+                    <img class="pull-left" src="/images/forward.png" width=15 style="margin-top:8px">
+                </div>
+            </div>
+        </a>
+        <a href=[% uri_base %]/locais/torre_menagem>
+            <div class="row-fluid">
+                <div class="span6">
+                    <div class="pull-right">
+                    <h4>Torre de Menagem</h4>
+                    </div>
+                </div>
+                <div class="span6">
+                    <img class="pull-left" src="/images/forward.png" width=15 style="margin-top:8px">
+                </div>
+            </div>
+        </a>
 
-</div>
+    </center>
+
+    <br/><br/>
+    <center>
+        <a href=[% uri_base %]/> <img src="/images/back.png" width=15 alt="back"> </a>
+    </center>
+
+
+
+    <div class="row-fluid" >
+
+        <div class="span6">
+            <div class="pull-left">
+                <img src="/images/cerveira.png" width="50" alt="VNC">
+            </div>
+        </div>
+
+        <div class="span6">
+            <div class="pull-right">
+                <img src="/images/ytravel.png" width="80" alt="Podcast">
+            </div>
+        </div>
+
+    </div>
 
 
 
