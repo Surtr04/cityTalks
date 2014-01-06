@@ -2,10 +2,16 @@ package cityTalks;
 use Dancer ':syntax';
 use strict;
 use warnings;
-use Cwd;
 use Sys::Hostname;
 
 our $VERSION = '0.1';
+
+hook 'before' => sub {
+
+    session lang => "pt";
+
+};
+
 
 get '/' => sub {
     template 'index';
