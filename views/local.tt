@@ -76,7 +76,7 @@
 
     <br/><br/>
     <center>
-        <a href=[% uri_base %]/locais> <img src="/images/back.png" width=15 alt="back"> </a>
+        <a href=[% uri_base %]/locais/[% lang %]> <img src="/images/back.png" width=15 alt="back"> </a>
     </center>
 
 <br/> <br/>

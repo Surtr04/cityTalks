@@ -929,7 +929,8 @@ a:focus {
 }
 p {
   margin: 0 0 10px;
-  color:#FFFFFF
+  color:#FFFFFF;
+  font-family:"Arial"
 }
 .lead {
   margin-bottom: 20px;
