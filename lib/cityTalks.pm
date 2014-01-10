@@ -3,8 +3,20 @@ use Dancer ':syntax';
 use strict;
 use warnings;
 use Sys::Hostname;
+use Cwd;
 
 our $VERSION = '0.1';
+
+get '/deploy' => sub {
+    template 'deployment_wizard', {
+		directory => getcwd(),
+		hostname  => hostname(),
+		proxy_port=> 8000,
+		cgi_type  => "fast",
+		fast_static_files => 1,
+	};
+};
+
 
 my $data = {
 
@@ -79,17 +91,6 @@ get '/locais/assisted/:place/:lang?' => sub {
 
 };
 
-
-
-get '/deploy' => sub {
-    template 'deployment_wizard', {
-		directory => getcwd(),
-		hostname  => hostname(),
-		proxy_port=> 8000,
-		cgi_type  => "fast",
-		fast_static_files => 1,
-	};
-};
 
 #The user clicked "updated", generate new Apache/lighttpd/nginx stubs
 post '/deploy' => sub {

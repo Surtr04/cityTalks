@@ -237,7 +237,7 @@
 
         [% ELSE %]
 
-    <h3 style="color:#00A99D; line-height:15px";>onde pode encontrar uma placa city talks:</h3>
+    <h3 style="color:#00A99D; line-height:15px";>Where to find a City Talks plate</h3>
 
 
     <a href=[% uri_base %]/locais/aquamuseu/en>

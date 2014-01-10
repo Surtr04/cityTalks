@@ -36,16 +36,19 @@
 
 [% ELSE %]
 
-<h4> __english__ </h4>
+<h4> CITY TALKS CERVEIRA IS A NEW WAY OF DISCOVERING THE VILLAGE. AT EACH POINT OF INTEREST THERE IS AN IDENTIFICATION PLATE WITH A QR CODE THAT, ONCE PHOTOGRAPHED WITH THE ADEQUATE APPLICATION, PROVIDES FURTHER INFORMATION ABOUT THE SITE </h4>
 
 
 <center>
-    <h5> __more_english__ </h5>
+    <h5>Cerveira talks to its visitors. City Talks.</h5>
 </center>
 
 [% END %]
 
 <br/><br/><br/>
+
+
+[% IF lang == "pt" %]
 
 <center>
    <a href=[% uri_base %]locais/[% lang %]>
@@ -55,6 +58,19 @@
     </div>
 </a>
 </center>
+
+[% ELSE %]
+
+<center>
+   <a href=[% uri_base %]locais/[% lang %]>
+        <div class="row-fluid">
+            <img src="/images/places.png" alt="forward" width="160">
+        </div>
+    </div>
+</a>
+</center>
+
+[% END %]
 
 <br/>
 <div class="row-fluid" > <!-- style="margin:auto; display:block; padding:0; position:absolute; right:2px; bottom:0"> -->
