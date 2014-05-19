@@ -1,0 +1,99 @@
+<div class="row-fluid">
+    <div class="pull-right">
+        [% IF lang == "pt" %]
+        <a href="[% uri_base %]/locais/[% place %]/en"> <img id="lang_select" src="/images/pt_en.png" alt="pt_en" width="60"></a>
+        [% ELSE %]
+        <a href="[% uri_base %]/locais/[% place %]/pt"> <img id="lang_select" src="/images/pt_en.png" alt="pt_en" width="60"></a>
+        [% END %]
+    </div>
+</div>
+
+
+
+<a href=[% uri_base %]/locais/assisted/[% place %]/[% lang %]> <img src="/images/assisted.png" width="80" alt="def_auditivas"/></a>
+
+
+<div class="row-fluid">
+
+    <center>
+        <div class="span12">
+            <img src="/images/cervo.png" width="250" alt="YTravel">
+        </div>
+    </center>
+
+</div>
+
+<br/><br/>
+
+[% 
+    placeEng = place _ '_en'
+%]
+
+
+<center>
+    [% IF lang == "pt" %]
+    <h2> [% cw_data.$place %] </h2>
+    [% ELSE %]
+    <h2> [% cw_data.$placeEng %] </h2>
+    [% END %]
+</center>
+
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+
+<script>
+    $(document).ready(function(){
+
+        $("#pauseImage").hide();
+
+        $("#playImage").click(function(){
+            $("#audio-player")[0].play();
+            $("#playImage").hide();
+            $("#pauseImage").show();
+        })
+
+        $("#pauseImage").click(function(){
+            $("#audio-player")[0].pause();
+            $("#pauseImage").hide();
+            $("#playImage").show();
+        })
+
+        $("#audio-player").bind("ended", function(){
+            $("#pauseImage").hide();
+            $("#playImage").show();
+        })
+
+    })
+</script>
+
+[% IF lang == "pt" %]
+<audio id="audio-player" name="audio-player" src="/audio/[% place %].ogg" ></audio>
+[% ELSE %]
+<audio id="audio-player" name="audio-player" src="/audio/[% placeEng %].ogg" ></audio>
+[% END %]
+<center>
+    <img id= "playImage" src="/images/play.png" alt="play" width="150"/>
+</center>
+<center>
+    <img id="pauseImage" src="/images/pause.png" alt="pause" width="100"/>
+</center>
+
+    <br/><br/>
+    <center>
+        <a href=[% uri_base %]/locais/[% lang %]> <img src="/images/back.png" width=15 alt="back"> </a>
+    </center>
+
+<br/> <br/>
+
+
+<div class="row-fluid" > <!-- style="margin:auto; display:block; padding:0; position:absolute; right:2px; bottom:0"> -->
+    <div class="span12">
+        <div class="pull-left">
+            <a href="http://www.cm-vncerveira.pt/"><img src="/images/cerveira.png" width="50" alt="VNC"></a>
+        </div>
+        <div class="pull-right">
+            <a href="http://www.ypodcast.pt/"> <img src="/images/ytravel2.png" width="80" alt="YTravel" style:"display: block; padding:0; position:absolute; top:20px"></a>
+        </div>
+    </div>
+</div>
+

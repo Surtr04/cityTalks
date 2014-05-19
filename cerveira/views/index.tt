@@ -1,0 +1,86 @@
+
+<div class="row-fluid">
+    <div class="pull-right">
+       [% IF lang == "pt" %]
+        <a href="[% uri_base %]/en"> <img id="lang_select" src="/images/pt_en.png" alt="pt_en" width="60"></a>
+        [% ELSE %]
+        <a href="[% uri_base %]/pt"> <img id="lang_select" src="/images/pt_en.png" alt="pt_en" width="60"></a>
+        [% END %]
+    </div>
+
+</div>
+
+
+
+<div class="control-group"></div>
+<div class="row-fluid">
+
+    <center>
+        <div class="span12">
+            <img src="/images/cervo.png" width="250" alt="YTravel">
+        </div>
+    </center>
+
+</div>
+
+<br/><br/><br/>
+
+[% IF lang == "pt"%]
+
+    <h4>CITY TALKS CERVEIRA É UMA NOVA MODALIDADE DE DESCOBERTA DA VILA. EM CADA PONTO DE INTERESSE, HÁ UMA PLACA DE IDENTIFICAÇÃO COM UM QR CODE QUE QUANDO FOTOGRAFADO COM A APLICACÃO APROPRIADA PERMITE ACEDER A INFORMAÇÃO ADICIONAL SOBRE AQUELE LOCAL </h4>
+
+
+<center>
+    <h5>Cerveira fala a quem a visita. City Talks.</h5>
+</center>
+
+[% ELSE %]
+
+<h4> CITY TALKS CERVEIRA IS A NEW WAY OF DISCOVERING THE VILLAGE. AT EACH POINT OF INTEREST THERE IS AN IDENTIFICATION PLATE WITH A QR CODE THAT, ONCE PHOTOGRAPHED WITH THE ADEQUATE APPLICATION, PROVIDES FURTHER INFORMATION ABOUT THE SITE </h4>
+
+
+<center>
+    <h5>Cerveira talks to its visitors. City Talks.</h5>
+</center>
+
+[% END %]
+
+<br/><br/><br/>
+
+
+[% IF lang == "pt" %]
+
+<center>
+   <a href=[% uri_base %]locais/[% lang %]>
+        <div class="row-fluid">
+            <img src="/images/locais.png" alt="forward" width="200">
+        </div>
+    </div>
+</a>
+</center>
+
+[% ELSE %]
+
+<center>
+   <a href=[% uri_base %]locais/[% lang %]>
+        <div class="row-fluid">
+            <img src="/images/places.png" alt="forward" width="160">
+        </div>
+    </div>
+</a>
+</center>
+
+[% END %]
+
+<br/>
+<div class="row-fluid" > <!-- style="margin:auto; display:block; padding:0; position:absolute; right:2px; bottom:0"> -->
+    <div class="span12">
+        <div class="pull-left">
+            <a href="http://www.cm-vncerveira.pt/"><img src="/images/cerveira.png" width="50" alt="VNC"></a>
+        </div>
+        <div class="pull-right">
+            <a href="http://www.ypodcast.pt/"> <img src="/images/ytravel2.png" width="80" alt="YTravel" style:"display: block; padding:0; position:absolute; top:20px"></a>
+        </div>
+    </div>
+</div>
+
