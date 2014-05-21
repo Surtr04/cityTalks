@@ -1,0 +1,21 @@
+
+
+<br/>
+<div class="row-fluid">
+    <div class="pull-right">
+        <img src="/images/city_talks.png" width="90">
+    </div>
+
+</div>
+<br/><br/><br/>
+<div class="row-fluid">
+    <center>
+        <img src="/images/craveiro.png" width="200" usemap="#follow" border="0">
+    </center>
+</div>
+
+
+<map name="follow">
+    <area shape="rect" coords="0,90,100,200" href="craveiro">
+    <area shape="rect" coords="100,90,200,200" href="guide/sevelha/8/[% lang %]">
+</map>

@@ -2,7 +2,7 @@
 
 <div class="row-fluid" style=>
     <center>
-        <a href="[% uri_base %]/index"> <img id="welcome_img" src="/images/ypodcast_logo.png" width="300"> </a>
+        <a href="[% uri_base %]/index/pt"> <img id="welcome_img" src="/images/ypodcast_logo.png" width="300"> </a>
     </center>
 </div>
 

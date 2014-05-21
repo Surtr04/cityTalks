@@ -1,0 +1,24 @@
+<br/>
+<div class="row-fluid">
+    <div class="pull-right">
+        <a href="http://www.ypodcast.pt"><img src="/images/ypodcast.png" width="90"></a>
+    </div>
+</div>
+
+
+<br/><br/><br/>
+<center>
+<div class="row-fluid">
+    <img src="/images/end.png" width="350" >
+</div>
+</center>
+
+<br/><br/><br/><br/>
+
+<div class="row-fluid">
+    <div class="span12">
+        <div class="pull-right">
+            <a href="/index/[% lang %]"><img src="/images/home.png" width="40"></a>
+        </div>
+    </div>
+</div>

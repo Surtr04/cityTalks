@@ -1,0 +1,61 @@
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+
+<script>
+    $(document).ready(function(){
+
+        $("#pauseImage").hide();
+
+        $("#playImage").click(function(){
+            $("#audio-player")[0].play();
+            $("#playImage").hide();
+            $("#pauseImage").show();
+            $("#gotose").hide();
+            $("#start").hide();
+        })
+
+        $("#pauseImage").click(function(){
+            $("#audio-player")[0].pause();
+            $("#pauseImage").hide();
+            $("#playImage").show();
+        })
+
+        $("#audio-player").bind("ended", function(){
+            window.location.replace("/sechoice")
+        })
+
+    })
+</script>
+
+
+<br/>
+<div class="row-fluid">
+    <div class="pull-right">
+        <img src="/images/city_talks.png" width="90">
+    </div>
+
+</div>
+
+<center>
+<h1>BRACARA AUGUSTA</h1>
+</center>
+
+[% IF lang == "pt" %]
+<audio id="audio-player" name="audio-player" src="/audio/1.mp3" ></audio>
+[% ELSE %]
+<audio id="audio-player" name="audio-player" src="/audio/[%  %].mp3" ></audio>
+[% END %]
+<center>
+    <img id= "playImage" src="/images/play.png" alt="play" width="150"/>
+</center>
+<center>
+    <img id="pauseImage" src="/images/pause.png" alt="pause" width="105"/>
+</center>
+
+<center>
+    <h1 id="start"> INICIAR PERCURSO </h1>
+</center>
+
+<center>
+    <img id="gotose" src="/images/gotose.png" width="200">
+</center>

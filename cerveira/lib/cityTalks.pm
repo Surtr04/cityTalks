@@ -63,7 +63,7 @@ get '/' => sub {
     template 'welcome'
 };
 
-get '/index/ => sub {
+get '/index' => sub {
     template 'index'
 };
 
